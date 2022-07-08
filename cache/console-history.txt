@@ -1,0 +1,4 @@
+ await governor.state("41265655351448513370118321025015495034174037260634248810459637243157339185327")
+ const proposalState = await governor.state("41265655351448513370118321025015495034174037260634248810459637243157339185327")
+ const proposalState = await governor.state(proposalId)
+const governor = await ethers.getContract("GovernorContract")
